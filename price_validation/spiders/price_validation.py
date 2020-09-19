@@ -12,7 +12,7 @@ class PriceValidation(scrapy.Spider):
 
     def __init__(self, keywords='', *args, **kwargs):
         super(PriceValidation, self).__init__(*args, **kwargs)
-        self.keywords = keywords.split(',')
+        self.keywords = keywords.split(';')
 
     def start_requests(self):
         for key in self.keywords:
