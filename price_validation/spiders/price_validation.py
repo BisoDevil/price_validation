@@ -7,10 +7,7 @@ class PriceValidation(scrapy.Spider):
     name = "validate"
     allowed_domains = ["noon.com", "souq.com", "jumia.com.eg", 'btech.com']
     keywords = [
-        'Xiaomi Redmi Note 9 Polar White',
-        'apple Iphone 11 128GB , white',
-        'HUAWEI Y5P Green 2GB RAM 32GB 4G LTE',
-        'Apple iPhone 11 Pro Max with FaceTime - 64GB, 4GB RAM, 4G LTE, Silver, Single SIM & E-SIM'
+
     ]
 
     def __init__(self, keywords='', *args, **kwargs):
