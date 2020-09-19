@@ -1,0 +1,13 @@
+setup.py
+price_validation/__init__.py
+price_validation/items.py
+price_validation/middlewares.py
+price_validation/pipelines.py
+price_validation/settings.py
+price_validation/spiders/__init__.py
+price_validation/spiders/price_validation.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
